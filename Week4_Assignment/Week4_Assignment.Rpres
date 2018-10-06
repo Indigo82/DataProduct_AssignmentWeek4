@@ -18,6 +18,9 @@ App content
 
 The Shiny web application build is  used to add a smoothing line to the output of the Airpassengers dataset, which is built in in R. You can access it with "AirPassengers". It contains the monthly Airline Passenger Numbers from 1949-1960. 
 
+The app can be found [here](https://indigo82.shinyapps.io/Week4_Assignment/)
+The source code for the ui and server can be found [here](https://github.com/Indigo82/DataProduct_AssignmentWeek4/tree/master/Week4_Assignment)
+
 ```{r echo = FALSE}
 plot(AirPassengers)
 ````
