@@ -7,8 +7,6 @@ shinyServer(function(input, output) {
   
         output$lineplot <- renderPlot({
                 plot(AirPassengers)
-                observeEvent(input$add, {
-                        lines(smooth.spline(AirPassengers, spar = input$smootherpara), col = "red")
-                })
+                lines(smooth.spline(AirPassengers, spar = input$smootherpara), col = "red")
   })
 })
